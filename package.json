@@ -1,0 +1,38 @@
+{
+  "name": "@gurupras/xdo",
+  "version": "0.1.0",
+  "description": "Library to send commands to X server using libxdo",
+  "main": "xdo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurupras/node-xdo.git"
+  },
+  "keywords": [
+    "X",
+    "xdo",
+    "xdotool",
+    "libxdo"
+  ],
+  "author": "Guru Prasad Srinivasa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gurupras/node-xdo/issues"
+  },
+  "homepage": "https://github.com/gurupras/node-xdo#readme",
+  "dependencies": {
+    "ffi": "github:lxe/node-ffi#node-12",
+    "ref": "github:lxe/ref#node-12",
+    "ref-struct": "github:lxe/ref-struct#node-12"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
